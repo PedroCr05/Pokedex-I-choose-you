@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>The Pokédex</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    
+    <nav>
+        <form>
+            <input type="text"  value="" placeholder="Choose your pokemon!"  id="inputBar">
+            <input type="button"  value="Click here" id="searchButton">
+        </form>
+    </nav>
+
+    <main>
+        <h2 id="pkmnName" ref></h2>
+        <img id="pkmnImage"/>
+        <p id="pkmnTypes"></p>
+        <p id="pkmnAbility"></p>
+        <p id="pkmnHeight"></p>
+        <p id="pkmnMoves"></p>
+        <p id="pkmnGender"></p>
+        <p id="pkmnRegion"></p>
+        <p id="pkmnDexNum"></p>
+        <p id="pkmnStat"></p>
+        <p id="pkmnCharacteristic"></p>
+    </main>
+
+    <script defer src="script.js"></script>
+</body>
+</html>
